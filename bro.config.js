@@ -8,7 +8,7 @@ module.exports = {
       publicPath: `/static/${pkg.name}/${process.env.VERSION || pkg.version}/`,
     },
   },
-  /* use https://admin.bro-js.ru/ to create config, navigations and features */
+
   navigations: {
     "smartini_crypto.main": "/smartini_crypto",
     "smartini_crypto.detail": "/smartini_crypto/detail",
@@ -21,12 +21,10 @@ module.exports = {
   },
   features: {
     "smartini_crypto": {
-      // add your features here in the format [featureName]: { value: string }
     },
   },
   config: {
-    "smartini_crypto.api": "https://193.124.118.57",
-    //"smartini_crypto.api": "http://localhost:4000/",
+    "smartini_crypto.api": "https://45.10.244.41:4000/",
     "smartini_crypto.promocode_new_year": "NEWYEAR",
     "smartini_crypto.promocode_admin": "ADMIN",
   },

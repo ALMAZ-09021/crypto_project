@@ -67,7 +67,7 @@ const SignWithTelegram = () => {
             <h1>Login via Telegram</h1>
             <Input
                 type="text"
-                placeholder="Enter your username"
+                placeholder="Enter username (registered with here, not tg)"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
