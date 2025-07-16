@@ -90,12 +90,12 @@ Follow these steps to install and run the project:
 
 1. 📥 Clone the repository:
    ```bash
-   git clone https://github.com/Arti-07/SberTech.git
+   https://github.com/ALMAZ-09021/crypto_project.git
    ```
 
 2. 📂 Navigate to the project directory:
    ```bash
-   cd SberTech
+   cd crypto_project
    ```
 
 3. 📦 Install all necessary dependencies:
