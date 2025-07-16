@@ -103,7 +103,14 @@ Follow these steps to install and run the project:
    npm install
    ```
 
-4. 🚀 Start the application in development mode:
+4. To get access to backend
+
+   🔗 Go to: [https://45.10.244.41/](https://45.10.244.41/)
+
+   📝 On the main page, you need to sign up or log in manually. Without authentication, most API endpoints will return a `401 Unauthorized` error.
+  
+
+5. 🚀 Start the application in development mode:
    ```bash
    npm start
    ```
